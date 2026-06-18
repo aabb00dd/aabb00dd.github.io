@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="site-header">
     <nav class="nav">
@@ -20,6 +21,7 @@
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -28,21 +30,44 @@
   <main>
     <section id="home" class="hero section">
       <div class="hero-content">
+        <img src="profile.jpg" alt="Abdalrahman Mohammed" class="profile-image">
+
         <p class="eyebrow">AI & Machine Learning Portfolio</p>
         <h1>Hi, I’m Abdalrahman “Abod” Mohammed.</h1>
+
         <p class="hero-text">
           M.Sc. student in Artificial Intelligence and Machine Learning at Blekinge Institute of Technology, focused on applied machine learning, data analysis, computer vision, and industrial AI solutions.
         </p>
+
         <div class="hero-actions">
-          <a class="btn primary" href="#projects">View projects</a>
-          <a class="btn secondary" href="mailto:abod1973.haitham@gmail.com">Contact me</a>
+          <a class="btn primary" href="CV_E.pdf" target="_blank">View CV (PDF)</a>
+          <a class="btn secondary" href="https://github.com/aabb00dd" target="_blank">GitHub</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/abdalrahman-mohammed-987268238/" target="_blank">LinkedIn</a>
+          <a class="btn secondary" href="mailto:abod1973.haitham@gmail.com">Email Me</a>
+        </div>
+
+        <div class="tech-badges">
+          <span>Python</span>
+          <span>PyTorch</span>
+          <span>TensorFlow</span>
+          <span>Scikit-learn</span>
+          <span>Computer Vision</span>
+          <span>SQL</span>
+          <span>Docker</span>
+          <span>Azure</span>
         </div>
       </div>
+
       <div class="hero-card">
         <h2>Currently</h2>
-        <p>Machine Learning Intern at NKT, developing image analysis and preprocessing workflows for industrial inspection data.</p>
+        <p>
+          Machine Learning Intern at NKT, developing image analysis, preprocessing, denoising, and pattern recognition workflows for industrial inspection data.
+        </p>
         <div class="card-tags">
-          <span>Python</span><span>Computer Vision</span><span>ML</span><span>Data Analysis</span>
+          <span>Industrial AI</span>
+          <span>Computer Vision</span>
+          <span>Image Denoising</span>
+          <span>Machine Learning</span>
         </div>
       </div>
     </section>
@@ -60,6 +85,7 @@
     <section id="experience" class="section">
       <p class="eyebrow">Experience</p>
       <h2>Experience</h2>
+
       <div class="timeline">
         <article>
           <div class="time">Jan 2026 – Present</div>
@@ -74,6 +100,7 @@
             </ul>
           </div>
         </article>
+
         <article>
           <div class="time">Aug 2025 – Present</div>
           <div>
@@ -86,6 +113,7 @@
             </ul>
           </div>
         </article>
+
         <article>
           <div class="time">May 2022 – Present</div>
           <div>
@@ -104,24 +132,46 @@
     <section id="projects" class="section">
       <p class="eyebrow">Projects</p>
       <h2>Selected projects</h2>
+
       <div class="project-grid">
         <article class="project-card">
-          <h3>Adversarial Attacks on Facial Recognition Systems</h3>
-          <p>Evaluated facial recognition robustness against digital and physical adversarial attacks. Fine-tuned ResNet-18 and ResNet-101 and implemented FGSM, PGD, DeepFool, and patch attacks.</p>
-          <div class="card-tags"><span>PyTorch</span><span>Computer Vision</span><span>ResNet</span></div>
-          <a href="#" aria-label="GitHub repository link">GitHub repository →</a>
+          <h3>⭐ Adversarial Attacks on Facial Recognition Systems</h3>
+          <p>
+            Evaluated facial recognition robustness against digital and physical adversarial attacks. Fine-tuned ResNet-18 and ResNet-101 and implemented FGSM, PGD, DeepFool, and patch attacks.
+          </p>
+          <div class="card-tags">
+            <span>PyTorch</span>
+            <span>Computer Vision</span>
+            <span>ResNet</span>
+          </div>
+          <a href="https://github.com/aabb00dd/Adversarial-Vulnerabilities-in-Facial-Recognition-Systems" target="_blank">GitHub repository →</a>
         </article>
+
         <article class="project-card">
-          <h3>Movie Revenue Prediction</h3>
-          <p>Built an end-to-end ML pipeline to predict revenue, profitability, and ratings from movie metadata, using preprocessing, feature engineering, sentiment analysis, and model comparison.</p>
-          <div class="card-tags"><span>Python</span><span>Scikit-learn</span><span>XGBoost</span><span>NLTK</span></div>
-          <a href="#" aria-label="GitHub repository link">GitHub repository →</a>
+          <h3>⭐ Movie Revenue Prediction</h3>
+          <p>
+            Built an end-to-end ML pipeline to predict revenue, profitability, and ratings from movie metadata, using preprocessing, feature engineering, sentiment analysis, and model comparison.
+          </p>
+          <div class="card-tags">
+            <span>Python</span>
+            <span>Scikit-learn</span>
+            <span>XGBoost</span>
+            <span>NLTK</span>
+          </div>
+          <a href="https://github.com/aabb00dd/Movie-Performance-Prediction-TMDB-ML-Feature-Engineering-Title-Sentiment" target="_blank">GitHub repository →</a>
         </article>
+
         <article class="project-card">
-          <h3>Manga Popularity Analysis</h3>
-          <p>Performed exploratory data analysis on a real-world manga dataset, cleaned data, handled outliers, and analyzed score, popularity, ranking, and chapter length.</p>
-          <div class="card-tags"><span>Pandas</span><span>EDA</span><span>Statistics</span></div>
-          <a href="#" aria-label="GitHub repository link">GitHub repository →</a>
+          <h3>⭐ Manga Popularity Analysis</h3>
+          <p>
+            Performed exploratory data analysis on a real-world manga dataset, cleaned data, handled outliers, and analyzed score, popularity, ranking, and chapter length.
+          </p>
+          <div class="card-tags">
+            <span>Pandas</span>
+            <span>EDA</span>
+            <span>Statistics</span>
+          </div>
+          <a href="https://github.com/aabb00dd/Manga-Data-Analysis-Exploratory-Data-Analysis" target="_blank">GitHub repository →</a>
         </article>
       </div>
     </section>
@@ -129,6 +179,7 @@
     <section id="skills" class="section">
       <p class="eyebrow">Skills</p>
       <h2>Technical toolkit</h2>
+
       <div class="skills-grid">
         <div><h3>Programming & Data</h3><p>Python, SQL, Pandas, NumPy</p></div>
         <div><h3>Machine Learning & AI</h3><p>Scikit-learn, TensorFlow, PyTorch, model evaluation, cross-validation, feature engineering, preprocessing pipelines</p></div>
@@ -137,12 +188,22 @@
       </div>
     </section>
 
-    <section class="section certifications">
+    <section id="certifications" class="section certifications">
       <p class="eyebrow">Certifications</p>
       <h2>Certifications</h2>
+
       <div class="cert-list">
-        <p><strong>Microsoft Azure AI Essentials Professional Certificate</strong> · Microsoft · 2026</p>
-        <p><strong>GitHub Professional Certificate</strong> · GitHub · 2025</p>
+        <p>
+          <a href="https://www.linkedin.com/learning/certificates/16eee973b417e64d0b6f2ce58a85c0357e2bdab27a831c4005e3d2eac3eca215" target="_blank">
+            <strong>Microsoft Azure AI Essentials Professional Certificate</strong> · Microsoft · 2026
+          </a>
+        </p>
+
+        <p>
+          <a href="https://www.linkedin.com/learning/certificates/4a638ac59214be765de4ef660852958790e5f2d10e9f61d2313c9b1b01d62566" target="_blank">
+            <strong>GitHub Professional Certificate</strong> · GitHub · 2025
+          </a>
+        </p>
       </div>
     </section>
 
@@ -150,10 +211,11 @@
       <p class="eyebrow">Contact</p>
       <h2>Let’s connect.</h2>
       <p>I am open to opportunities in applied machine learning, data analysis, computer vision, and AI engineering.</p>
+
       <div class="contact-links">
-        <a href="mailto:abod1973.haitham@gmail.com">abod1973.haitham@gmail.com</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
+        <a href="mailto:abod1973.haitham@gmail.com">Email Me</a>
+        <a href="https://www.linkedin.com/in/abdalrahman-mohammed-987268238/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/aabb00dd" target="_blank">GitHub</a>
       </div>
     </section>
   </main>
