@@ -1,21 +1,25 @@
 # Abdalrahman Mohammed Portfolio
 
-A static personal portfolio website for GitHub Pages.
+Personal portfolio website for Abdalrahman “Abod” Mohammed, M.Sc. student in Artificial Intelligence and Machine Learning at Blekinge Institute of Technology.
 
-## How to host on GitHub Pages
+The website presents my experience, selected machine learning projects, technical skills, certifications, and contact information.
 
-1. Create a new GitHub repository named `portfolio` or `yourusername.github.io`.
-2. Upload these files: `index.html`, `style.css`, `script.js`, and `README.md`.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/root**
-5. Click **Save**.
-6. Your portfolio will be live at:
-   - `https://yourusername.github.io/portfolio/`, or
-   - `https://yourusername.github.io/` if the repository is named `yourusername.github.io`.
+## Live Website
 
-## Before publishing
+[View Portfolio](https://aabb00dd.github.io/Abdalrahman_Mohammed.github.io/)
 
-Replace the placeholder GitHub and LinkedIn links in `index.html` with your real profile links.
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+
+## Sections
+
+- About
+- Experience
+- Projects
+- Skills
+- Certifications
+- Contact
