@@ -1,6 +1,6 @@
 # Abdalrahman Mohammed Portfolio
 
-Personal portfolio website for Abdalrahman “Abod” Mohammed, M.Sc. student in Artificial Intelligence and Machine Learning at Blekinge Institute of Technology.
+Personal portfolio website for Abdalrahman Mohammed, M.Sc. student in Artificial Intelligence and Machine Learning at Blekinge Institute of Technology.
 
 The website presents my experience, selected machine learning projects, technical skills, certifications, and contact information.
 
