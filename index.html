@@ -39,7 +39,7 @@
         </p>
     
         <p class="hero-text">
-          I build practical machine learning, data analysis, and computer vision solutions for real-world and industrial data.
+          I build practical machine learning, computer vision, data analytics, and MLOps solutions for real-world and industrial applications.
         </p>
     
         <div class="hero-actions">
@@ -57,6 +57,7 @@
           <span>Computer Vision</span>
           <span>SQL</span>
           <span>Docker</span>
+          <span>MLflow</span>
           <span>Azure</span>
         </div>
       </div>
@@ -66,12 +67,12 @@
           <img src="image.png" alt="Abdalrahman Mohammed" class="profile-image">
         </div>
     
-        <div class="status-pill">Currently</div>
+        <div class="status-pill">Recent Experience</div>
     
         <h2>Machine Learning Intern at NKT</h2>
     
         <p>
-          Developing image analysis, preprocessing, denoising, and pattern recognition workflows for industrial inspection data.
+          Developed and evaluated computer-vision and image-denoising workflows for confidential industrial side-scan sonar data.
         </p>
     
         <div class="card-tags">
@@ -85,11 +86,11 @@
 
     <section id="about" class="section about">
       <p class="eyebrow">About</p>
-      <h2>Building practical AI solutions for real-world data.</h2>
+      <h2>Building practical AI solutions for real-world data</h2>
     
       <div class="cert-list">
         <p>
-          I am currently in the fourth academic year of my M.Sc. in AI and Machine Learning at BTH. My work focuses on Python-based machine learning, exploratory data analysis, model evaluation, preprocessing pipelines, and understanding model behavior beyond surface-level metrics. I am interested in opportunities within applied machine learning, data analysis, computer vision, and engineering-driven AI.
+          I am entering the final year of my M.Sc. in Artificial Intelligence and Machine Learning at Blekinge Institute of Technology. My work focuses on applied machine learning, computer vision, data analytics, model evaluation, and reproducible MLOps pipelines. I have experience developing solutions for industrial inspection data, large-scale movie metadata, e-commerce analytics, and adversarial robustness in facial-recognition systems. I am particularly interested in opportunities within machine learning engineering, AI engineering, computer vision, data science, and data analytics.
         </p>
       </div>
     </section>
@@ -100,15 +101,15 @@
 
       <div class="timeline">
         <article>
-          <div class="time">Jan 2026 – Present</div>
+          <div class="time">Jan 2026 – Jun 2026</div>
           <div>
             <h3>Machine Learning Intern · NKT</h3>
             <p>Karlskrona, Sweden</p>
             <ul>
-              <li>Develop image analysis workflows for industrial inspection data using Python.</li>
-              <li>Implement preprocessing and denoising techniques to improve data quality and model reliability.</li>
-              <li>Build and evaluate pattern recognition models in collaboration with engineers.</li>
-              <li>Analyze model performance and investigate failure cases.</li>
+              <li>Developed a reproducible Python computer-vision pipeline for 22 confidential side-scan sonar datasets, including anonymization, overlapping patch extraction, feature engineering, and image reconstruction.</li>
+              <li>Implemented and benchmarked nine denoising approaches, including adaptive speckle filters, K-SVD dictionary learning, and a self-supervised blind-spot U-Net trained without clean reference images.</li>
+              <li>Evaluated noise reduction and structure preservation using Speckle Index, Equivalent Number of Looks, and visual analysis. Frost filtering produced the strongest overall classical results, reducing average Speckle Index from approximately 0.22 to 0.14.</li>
+              <li>Investigated contrast instability and image-dependent model failures, then presented technical trade-offs and recommendations for GPU-based tuning and hybrid denoising approaches to NKT engineering stakeholders.</li>
             </ul>
           </div>
         </article>
@@ -119,9 +120,8 @@
             <h3>Student Ambassador · Blekinge Institute of Technology</h3>
             <p>Karlskrona, Sweden</p>
             <ul>
-              <li>Represent the university at recruitment and outreach events.</li>
-              <li>Present study programs and student life to prospective students.</li>
-              <li>Deliver presentations to diverse audiences.</li>
+              <li>Represent BTH at open days, recruitment activities, and outreach events.</li>
+              <li>Answer questions from prospective students about the AI and Machine Learning programme, admissions, university studies, and student life.</li>
             </ul>
           </div>
         </article>
@@ -132,9 +132,8 @@
             <h3>Behavioral Support Specialist · Sävsjö Kommun</h3>
             <p>Sävsjö, Sweden</p>
             <ul>
-              <li>Support individuals with special needs in structured care environments.</li>
-              <li>Promote independence, safety, and inclusion through structured routines.</li>
-              <li>Collaborate with diverse teams and stakeholders.</li>
+              <li>Support individuals with varying needs in their daily activities while applying responsibility, adaptability, patience, and clear communication.</li>
+              <li>Work collaboratively within structured care environments to promote independence, safety, and inclusion.</li>
             </ul>
           </div>
         </article>
@@ -146,6 +145,28 @@
       <h2>Selected projects</h2>
 
       <div class="project-grid">
+
+        <article class="project-card">
+          <h3>⭐ Movie Revenue Prediction MLOps Pipeline</h3>
+          <ul>
+              <li>Built a production-style XGBoost classification pipeline using more than 1.15 million TMDB records, achieving a ROC-AUC score of 0.904.</li>
+              <li>Created reusable preprocessing artifacts to ensure consistent feature transformation during model training and inference.</li>
+              <li>Deployed predictions through a FastAPI REST service and tracked experiments, metrics, parameters, and model artifacts with MLflow.</li>
+              <li>Implemented a GitHub Actions CI/CD workflow that runs Pytest tests, builds the Docker image, and publishes validated images to GitHub Container Registry.</li>
+          </ul>
+          <div class="card-tags">
+            <span>Python</span>
+            <span>Scikit-learn</span>
+            <span>XGBoost</span>
+            <span>FastAPI</span>
+            <span>MLflow</span>
+            <span>Docker</span>
+            <span>Pytest</span>
+            <span>GitHub Actions</span>
+          </div>
+          <a href="https://github.com/aabb00dd/Movie-Revenue-Prediction-MLOps-Pipeline" target="_blank">GitHub repository →</a>
+        </article>
+        
         <article class="project-card">
           <h3>⭐ Adversarial Attacks on Facial Recognition Systems</h3>
           <p>
@@ -157,20 +178,6 @@
             <span>ResNet</span>
           </div>
           <a href="https://github.com/aabb00dd/Adversarial-Vulnerabilities-in-Facial-Recognition-Systems" target="_blank">GitHub repository →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>⭐ Movie Revenue Prediction</h3>
-          <p>
-            Built an end-to-end ML pipeline to predict revenue, profitability, and ratings from movie metadata, using preprocessing, feature engineering, sentiment analysis, and model comparison.
-          </p>
-          <div class="card-tags">
-            <span>Python</span>
-            <span>Scikit-learn</span>
-            <span>XGBoost</span>
-            <span>NLTK</span>
-          </div>
-          <a href="https://github.com/aabb00dd/Movie-Performance-Prediction-TMDB-ML-Feature-Engineering-Title-Sentiment" target="_blank">GitHub repository →</a>
         </article>
 
         <article class="project-card">
